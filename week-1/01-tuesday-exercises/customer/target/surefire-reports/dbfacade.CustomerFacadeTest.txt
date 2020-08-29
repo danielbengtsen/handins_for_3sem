@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: dbfacade.CustomerFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec <<< FAILURE!
+dbfacade.CustomerFacadeTest.testGetNumberOfCustomers()  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dbfacade.CustomerFacadeTest.testGetNumberOfCustomers(CustomerFacadeTest.java:111)
+
+dbfacade.CustomerFacadeTest.testFindByLastName()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dbfacade.CustomerFacadeTest.testFindByLastName(CustomerFacadeTest.java:97)
+
+dbfacade.CustomerFacadeTest.testAllCustomers()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dbfacade.CustomerFacadeTest.testAllCustomers(CustomerFacadeTest.java:125)
+
+dbfacade.CustomerFacadeTest.testAddCustomer()  Time elapsed: 0.085 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <1>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at dbfacade.CustomerFacadeTest.testAddCustomer(CustomerFacadeTest.java:70)
+
+dbfacade.CustomerFacadeTest.testFindByID()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dbfacade.CustomerFacadeTest.testFindByID(CustomerFacadeTest.java:82)
+
